@@ -8,7 +8,7 @@ Feature: Code Challenge
     Then I am on the Automatisiertes Testen page
     And I see Contact Us button exist
     And Contact Us button links to correct e-mail
-    When I navigate to main page
+    When I navigate to Main page
     Then I want to see English version of the page
     When I hover over Services
     And I select Test Automation link from sub menu
@@ -34,7 +34,6 @@ Feature: Code Challenge
     And I see ICSTTP 2021 event
     And I see that event date is 04-JANUARY-2022
 
-
     Scenario: Test3
       Given I have Job Offers page opened
       Then I am on the Stellenangebote page
@@ -53,8 +52,3 @@ Feature: Code Challenge
       Then I see file Name displayed
       When I check checkbox Datenschutzerklarung
       Then I see chebox is checked
-
-
-
-
-

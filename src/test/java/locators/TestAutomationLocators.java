@@ -17,7 +17,5 @@ public class TestAutomationLocators {
     private WebElement contactUsButton;
     public WebElement getContactUsButton(){return contactUsButton;}
     public void setContactUsButton(WebElement contactUsButton) {
-        this.contactUsButton = contactUsButton;};
-
-
+        this.contactUsButton = contactUsButton;}
 }

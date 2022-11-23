@@ -23,5 +23,8 @@ public class StepParamDiki {
         stepParamDiki.put("Email", "email");
         stepParamDiki.put("Telefonnummer", "textarea");
         stepParamDiki.put("Bewerbungsschreiben", "textarea");
+        stepParamDiki.put("German", "URL_MAIN_PAGE_DE");
+        stepParamDiki.put("English", "URL_MAIN_PAGE");
+
         }
 }

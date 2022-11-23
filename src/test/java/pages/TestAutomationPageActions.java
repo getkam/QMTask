@@ -3,7 +3,6 @@ package pages;
 import locators.TestAutomationLocators;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import steps.CommonSteps;
 
 public class TestAutomationPageActions extends BasePageActions {
@@ -20,8 +19,7 @@ public class TestAutomationPageActions extends BasePageActions {
     }
 
     public boolean verifyIfContactUsButtonExists() {
-        wait.until(ExpectedConditions.elementToBeClickable(testAutomationLocators.getContactUsButton()));
-        actions.scrollToElement(testAutomationLocators.getContactUsButton()).perform();
+        actions.scrollToElement(testAutomationLocators.getContactUsButton()).build().perform();
         return testAutomationLocators.getContactUsButton().isDisplayed();
     }
 
